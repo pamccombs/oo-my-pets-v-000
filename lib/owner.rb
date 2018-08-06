@@ -30,7 +30,7 @@ class Owner
   end
   
   def pets
-    
+    @pets= {fishes: [], cats: [], dogs: []}
   end
   
   
