@@ -19,7 +19,6 @@ class Owner
     OWNERS.clear
   end
   
-  
   def initialize(species)
     @species= species
     OWNERS << self
@@ -28,6 +27,9 @@ class Owner
   
   def say_species
    "I am a #{@species}."
+  end
+  
+  def pets
   end
   
   
