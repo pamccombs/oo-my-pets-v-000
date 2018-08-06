@@ -24,4 +24,9 @@ class Owner
     OWNERS << self
     @pets= {fishes: [], cats: [], dogs: []}
   end
+  
+  def say_species
+    puts "#{@species}"
+  end
+  
 end
