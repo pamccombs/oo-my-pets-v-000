@@ -59,6 +59,8 @@ class Owner
     end
     animals.clear
   end
+  
+  def list_pets
       
   end
     
