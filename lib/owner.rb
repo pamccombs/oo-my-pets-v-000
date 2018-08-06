@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  
+  def self.size
   
   
   def initialize(pets)
