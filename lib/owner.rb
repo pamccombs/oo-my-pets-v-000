@@ -19,7 +19,7 @@ class Owner
   end
   
   
-  def initialize(species)
+  def initialize(pets)
     OWNERS << self
     @pets= pets
     @pets= {fishes: [], cats: [], dogs: []}
