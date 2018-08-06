@@ -1,6 +1,7 @@
 class Owner
   # code goes here
-  OWNERS
+  OWNERS = []
+  
   def self.all
     OWNERS
   end
