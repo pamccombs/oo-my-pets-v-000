@@ -6,6 +6,10 @@ class Owner
     OWNERS
   end
   
+  def self.count
+    
+  end
+  
   
   def initialize(pets)
     
