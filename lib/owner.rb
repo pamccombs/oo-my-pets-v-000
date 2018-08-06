@@ -1,6 +1,7 @@
 class Owner
   # code goes here
   
+  attr_accessor :name
   attr_reader :species
   
   
@@ -28,5 +29,7 @@ class Owner
   def say_species
    "I am a #{@species}."
   end
+  
+  
   
 end
