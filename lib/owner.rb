@@ -1,5 +1,9 @@
 class Owner
   # code goes here
+  
+  attr_accessor :species
+  
+  
   OWNERS = []
   
   def self.all
@@ -15,8 +19,8 @@ class Owner
   end
   
   
-  def initialize(pets)
-    
+  def initialize(species)
+    @species= species
     OWNERS << self
     @pets= pets
     @pets= {fishes: [], cats: [], dogs: []}
