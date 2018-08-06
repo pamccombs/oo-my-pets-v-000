@@ -8,6 +8,8 @@ class Owner
   
   
   def initialize(pets)
+    
+    OWNERS << self
     @pets= pets
     @pets= {fishes: [], cats: [], dogs: []}
   end
