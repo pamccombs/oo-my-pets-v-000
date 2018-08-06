@@ -7,7 +7,7 @@ class Owner
   end
   
   def self.count
-    OWNERS.size
+    OWNERS.count
   end
   
   def self.reset_all
