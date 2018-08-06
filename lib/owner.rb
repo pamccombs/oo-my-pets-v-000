@@ -4,4 +4,5 @@ class Owner
   def initialize(pets)
     @pets= pets
     @pets= {fishes: [], cats: [], dogs: []}
+  end
 end
