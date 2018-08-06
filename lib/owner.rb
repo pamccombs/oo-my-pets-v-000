@@ -1,6 +1,9 @@
 class Owner
   # code goes here
-  def self.size
+  @@all = []
+  def self.all
+    @@all
+  end
   
   
   def initialize(pets)
