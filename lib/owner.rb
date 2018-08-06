@@ -1,7 +1,7 @@
 class Owner
   # code goes here
   
-  attr_accessor :species
+  attr_reader :species
   
   
   OWNERS = []
