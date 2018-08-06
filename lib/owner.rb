@@ -1,7 +1,7 @@
 class Owner
   # code goes here
   
-  attr_accessor :name, :pets
+  attr_accessor :name, :pets, :mood
   attr_reader :species
   
   
@@ -42,7 +42,7 @@ class Owner
   end
   
   def walk_dogs
-    
+    @mood = "happy"
   end
   
 end
